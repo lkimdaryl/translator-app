@@ -4,6 +4,7 @@ import * as FileSystem from 'expo-file-system';
 import { Audio } from 'expo-av';
 
 const OPEN_AI_API_KEY = process.env.OPEN_AI_API_KEY;
+// console.log(OPEN_AI_API_KEY);
 
 interface OutputAreaProps {
     incomingTranslatedText: string;

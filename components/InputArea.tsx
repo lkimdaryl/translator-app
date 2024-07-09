@@ -7,6 +7,16 @@ const OPEN_AI_API_ENDPOINT = process.env.OPEN_AI_API_ENDPOINT;
 const ORGANIZATION_ID = process.env.ORGANIZATION_ID;
 const PROJECT_ID = process.env.PROJECT_ID;
 
+// console.log(OPEN_AI_API_KEY);
+// console.log(OPEN_AI_API_ENDPOINT);
+// console.log(ORGANIZATION_ID);
+// console.log(PROJECT_ID);
+
+// const OPEN_AI_API_KEY = 'sk-proj-bOAZgJbEJagZq8LRLN0mT3BlbkFJpPlVKvKgiSqjawHgOraC'
+// const OPEN_AI_API_ENDPOINT = 'https://api.openai.com/v1/chat/completions'
+// const ORGANIZATION_ID = 'org-Y076jv8X9H2j7OXk9KlM4upf'
+// const PROJECT_ID = 'proj_QEw6Jyv4hQVyZZTghbkYgTpA'
+
 interface InputAreaProps {
     onTranslate: (text: string) => void;
     originLanguage: string;

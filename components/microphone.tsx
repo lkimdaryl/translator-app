@@ -7,6 +7,10 @@ const OPEN_AI_API_KEY = process.env.OPEN_AI_API_KEY;
 const ORGANIZATION_ID = process.env.ORGANIZATION_ID;
 const PROJECT_ID = process.env.PROJECT_ID;
 
+// console.log(OPEN_AI_API_KEY);
+// console.log(ORGANIZATION_ID);
+// console.log(PROJECT_ID);
+
 interface MicrophoneProps {
     setTranscript: (text: string) => void;
 }
