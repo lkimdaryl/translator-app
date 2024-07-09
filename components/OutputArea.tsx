@@ -4,7 +4,6 @@ import * as FileSystem from 'expo-file-system';
 import { Audio } from 'expo-av';
 
 const OPEN_AI_API_KEY = process.env.OPEN_AI_API_KEY;
-console.log(`from output area component | api key: ${OPEN_AI_API_KEY}`);
 
 interface OutputAreaProps {
     incomingTranslatedText: string;
@@ -35,8 +34,6 @@ const OutputArea: React.FC<OutputAreaProps> = ({ incomingTranslatedText }) => {
                     response_format: 'mp3'
                 })
             });
-            // console.log(response);
-            // console.log(typeof(response));
 
             const audioBlob = await response.blob();
             const reader = new FileReader();

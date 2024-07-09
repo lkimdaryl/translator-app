@@ -35,8 +35,6 @@ export default function App() {
 
   const handleTranslatedText = (text: string) => {
     setTranslatedText(text);
-    console.log(text);
-    // console.log(translatedText);
 };
 
   return (

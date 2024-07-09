@@ -4,14 +4,8 @@ import { Audio } from 'expo-av';
 import { Recording } from 'expo-av/build/Audio';
 
 const OPEN_AI_API_KEY = process.env.OPEN_AI_API_KEY;
-const OPEN_AI_API_ENDPOINT = process.env.OPEN_AI_API_ENDPOINT;
 const ORGANIZATION_ID = process.env.ORGANIZATION_ID;
 const PROJECT_ID = process.env.PROJECT_ID;
-
-// console.log(`from microphone component | api key: ${OPEN_AI_API_KEY}`);
-// console.log(`from microphone component | api endpoint: ${OPEN_AI_API_ENDPOINT}`);
-// console.log(`from microphone component | organization id: ${ORGANIZATION_ID}`);
-// console.log(`from microphone component | project id: ${PROJECT_ID}`);
 
 interface MicrophoneProps {
     setTranscript: (text: string) => void;
@@ -85,7 +79,6 @@ const Microphone = ({ setTranscript }: MicrophoneProps) => {
             });
             
             const transcription = await transcriptionResponse.json();
-            // console.log('Transcription:', transcription.text);
             setTranscript(transcription.text);
 
         } catch (error) {

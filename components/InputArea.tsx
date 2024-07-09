@@ -7,11 +7,6 @@ const OPEN_AI_API_ENDPOINT = process.env.OPEN_AI_API_ENDPOINT;
 const ORGANIZATION_ID = process.env.ORGANIZATION_ID;
 const PROJECT_ID = process.env.PROJECT_ID;
 
-// console.log(`from input area component | api key: ${OPEN_AI_API_KEY}`);
-// console.log(`from input area component | api endpoint: ${OPEN_AI_API_ENDPOINT}`);
-// console.log(`from input area component | organization id: ${ORGANIZATION_ID}`);
-// console.log(`from input area component | project id: ${PROJECT_ID}`);
-
 interface InputAreaProps {
     onTranslate: (text: string) => void;
     originLanguage: string;
