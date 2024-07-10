@@ -3,7 +3,10 @@
 ## Overview
 The Translator App is a mobile application built with React Native and TypeScript, designed to translate text between different languages. It provides a variety of input methods, including speech-to-text and keyboard input, and displays translations on the device screen using text-to-speech.
 
-![]("./assets/HelloWorld.mp4")
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWEwMHo1bGVpcTRiOWNsdTBtZjR0ZGpwYTU3MmJxcHdreWsxc29sZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wU9flRypLljDGV8q0l/giphy.gif)
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnQxb2hieHdhdjJxY2VucDYxODkyNHJjMThvbzg0amU5Y3pqdzk4ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vN6bLL1b0pVvOKSyQG/giphy.gif)
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2JjZ3Q5Z3F2bjRsZ2x5MGtxZHgxZGkwNzdiOGxpbHZuZDFnNjVsZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZzZhFcoYbEVXI9nOFZ/giphy.gif)
+
 
 ## Features
 - **Input Methods**: Allows users to input text via speech-to-text or keyboard.
